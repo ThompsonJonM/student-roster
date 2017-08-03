@@ -1,0 +1,24 @@
+{
+  "name": "student-roster",
+  "version": "1.0.0",
+  "description": "Express.js demo work",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThompsonJonM/student-roster.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThompsonJonM/student-roster/issues"
+  },
+  "homepage": "https://github.com/ThompsonJonM/student-roster#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
