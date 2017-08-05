@@ -1,6 +1,7 @@
 // Dependencies
 var express = require("express");
 var bodyParser = require("body-parser");
+var path = require("path");
 var app = express();
 
 var PORT = 3000;
@@ -29,7 +30,7 @@ var roster = [
 // Define GET route to return welcome message
 
 app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "index.html"));
+    res.sendFile(path.join(__dirname + "/index.html"));
 });
 
 // GET route that returns three students
