@@ -49,6 +49,8 @@ app.post("/add", function(req, res) {
     if (req.body.name) {
         roster.push(req.body);
         res.send("Student added");
+    } else {
+        console.log("Please enter a valid data entry.");
     }
 });
 
