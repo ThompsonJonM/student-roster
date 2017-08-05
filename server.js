@@ -29,7 +29,7 @@ var roster = [
 // Define GET route to return welcome message
 
 app.get("/", function(req, res) {
-    res.send("Welcome to the Peak");
+    res.sendFile(path.join(__dirname, "index.html"));
 });
 
 // GET route that returns three students
